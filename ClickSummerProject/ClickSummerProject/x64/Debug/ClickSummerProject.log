@@ -1,0 +1,20 @@
+﻿  zoomeGameLoop.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(2050,28): error C2676: binary '==': 'Target' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(894,30): message : could be 'bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(2050,19): message : 'bool std::operator ==(const std::allocator<_Ty> &,const std::allocator<_Other> &) noexcept': could not deduce template argument for 'const std::allocator<_Ty> &' from 'Target'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\iterator(489,17): message : or       'bool std::operator ==(const std::istreambuf_iterator<_Elem,_Traits> &,const std::istreambuf_iterator<_Elem,_Traits> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(2050,19): message : 'bool std::operator ==(const std::istreambuf_iterator<_Elem,_Traits> &,const std::istreambuf_iterator<_Elem,_Traits> &)': could not deduce template argument for 'const std::istreambuf_iterator<_Elem,_Traits> &' from 'Target'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\iterator(307,17): message : or       'bool std::operator ==(const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &,const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &) noexcept'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(2050,19): message : 'bool std::operator ==(const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &,const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &) noexcept': could not deduce template argument for 'const std::istream_iterator<_Ty,_Elem,_Traits,_Diff> &' from 'Target'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(3969,5): message : or       'bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(2050,19): message : 'bool std::operator ==(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)': could not deduce template argument for 'const std::move_iterator<_Iter> &' from 'Target'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1441,5): message : or       'bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(2050,19): message : 'bool std::operator ==(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)': could not deduce template argument for 'const std::reverse_iterator<_BidIt> &' from 'Target'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(367,27): message : or       'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(2050,19): message : 'bool std::operator ==(const std::pair<_Ty1,_Ty2> &,const std::pair<_Ty1,_Ty2> &)': could not deduce template argument for 'const std::pair<_Ty1,_Ty2> &' from 'Target'
+C:\Users\nicho\source\repos\ClickSummerProject\ClickSummerProject\zoomeGameLoop.cpp(64,81): message : see reference to function template instantiation '_FwdIt std::remove<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,Target>(_FwdIt,const _FwdIt,const _Ty &)' being compiled
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Target>>>,
+              _Ty=Target
+          ]
